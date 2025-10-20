@@ -36,22 +36,59 @@ main .container.home .btn{
     padding: 1rem;
     font-weight: 500;
     color: white;
-}
-.card{
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
-    border: 3px solid black;
 }
-.card .btn{
-    padding: 8px 100px;
-    font-weight: 700;
+.product .card {
+    border: none;
 }
 
+.card img{
+    object-fit: cover;
+    border-radius: 0;
+    opacity: 0.7;
+}
+
+main .product .btn{
+    border-radius: 4px;
+    background-color: #2d0249;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+main .product .btn span{
+    margin-left: 0.5rem;
+}
+
+main .product .card .badge.chocolate{
+    background-color: chocolate !important;
+}
+main .product .card .badge.cheese{
+    background-color: rgb(204, 216, 35) !important;
+}
+main .product .card .badge.mix{
+    background: linear-gradient(45deg, chocolate, rgb(204,216,35)) !important;
+}
+main .product .card .badge.boba{
+    background: linear-gradient(45deg, chocolate, rgb(36, 36, 36)) !important;
+}
+
+.btn:hover{
+    background-color: #6f1da1 !important;
+}
+
+main .product h2{
+    font-weight: 900;
+    color: white;
+}
+
+
 /* responsive breakpoints */
-@media (max-width:576px){
+@media (max-width:1200px){
     main .container.home .row{
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: 10rem;
     }
+    main .product .btn span{
+        display: none;
+}
 }
