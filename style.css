@@ -4,7 +4,6 @@
 body{
     background: linear-gradient(180deg, #a051ce, #9048b9, #2d0249);
     background-repeat: no-repeat;
-    height: 10000px;
     font-family: "Montserrat", sans-serif;
 }
  header .navbar-brand{
@@ -75,12 +74,34 @@ main .product .card .badge.boba{
     background-color: #6f1da1 !important;
 }
 
-main .product h2{
+main .product h2, main .about h2{
     font-weight: 900;
     color: white;
 }
 
+main .about h3{
+    font-family: "permanent Marker", cursive;
+}
 
+footer{
+    background-color: red !important;
+}
+
+footer .navbar-brand{
+    font-family: "Permanent Marker", cursive;
+}
+footer a{
+    color: white;
+    /* margin-bottom: 1rem; */
+    text-decoration: none;
+}
+footer h3{
+    font-weight: 700;
+}
+footer a span{
+    display: inline-block;
+    padding: 0 1rem;
+}
 /* responsive breakpoints */
 @media (max-width:1200px){
     main .container.home .row{
@@ -90,5 +111,14 @@ main .product h2{
     }
     main .product .btn span{
         display: none;
+    }
 }
+
+@media (max-width:576px){
+    main .about{
+        margin-bottom: 4rem;
+    }
+    main .about p, h3{
+        text-align: center;
+    }
 }
