@@ -84,11 +84,12 @@ main .about h3{
 }
 
 footer{
-    background-color: red !important;
+    background-color: #2d0249 !important;
 }
 
 footer .navbar-brand{
     font-family: "Permanent Marker", cursive;
+    font-size: 1.5rem;
 }
 footer a{
     color: white;
@@ -98,9 +99,8 @@ footer a{
 footer h3{
     font-weight: 700;
 }
-footer a span{
-    display: inline-block;
-    padding: 0 1rem;
+footer .contact span{
+    margin-left: 10px;
 }
 /* responsive breakpoints */
 @media (max-width:1200px){
@@ -115,9 +115,6 @@ footer a span{
 }
 
 @media (max-width:576px){
-    header .offcanvas .offcanvas-header .offcanvas-title{
-        font-size: 0.9rem;
-    }
     main .about{
         margin-bottom: 4rem;
     }
