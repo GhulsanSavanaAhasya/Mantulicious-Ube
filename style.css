@@ -115,6 +115,9 @@ footer a span{
 }
 
 @media (max-width:576px){
+    header .offcanvas .offcanvas-header .offcanvas-title{
+        font-size: 0.9rem;
+    }
     main .about{
         margin-bottom: 4rem;
     }
