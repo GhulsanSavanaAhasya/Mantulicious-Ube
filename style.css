@@ -1,11 +1,13 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     background: linear-gradient(180deg, #a051ce, #9048b9, #2d0249);
     background-repeat: no-repeat;
     font-family: "Montserrat", sans-serif;
 }
+
  header .navbar-brand{
     font-family: "Permanent Marker", cursive;
  }
